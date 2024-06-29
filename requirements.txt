@@ -1,0 +1,7 @@
+flask
+flask-cors
+google-generativeai
+anthropic
+openai==0.28
+llm-client
+gunicorn
