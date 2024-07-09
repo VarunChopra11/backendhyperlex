@@ -59,7 +59,7 @@ class Claude:
             response = self.client.completions.create(
                 model="claude-2.1",
                 max_tokens_to_sample=1000,
-                temperature=0.1,
+                temperature=0.3,
                 prompt=f"\n\nHuman: {message}\n\nAssistant:"
             )
             return response.completion
